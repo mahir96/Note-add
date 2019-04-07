@@ -5,16 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class loginForm extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login_form);
     }
-
-    public void login(View view) {
-        Intent l = new Intent(this,loginForm.class);
-        startActivity(l);
+    public void reg (View view) {
+        Intent r = new Intent(this,RegistrationForm.class);
+        startActivity(r);
     }
 }

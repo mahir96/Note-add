@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Note-A</string>
+    <string name="header_text">Note-Add</string>
+    <string name="home_gotit">GOT IT</string>
+    <!--Login Info-->
+    <string name="email">Enter Your email</string>
+    <string name="password">Enter Your password</string>
+    <string name="login">Sign-In</string>
+    <string name="acc">Create An Account</string>
+    <!--End of login info-->
+
+    <!--Register Info-->
+    <string name="name">Enter Your name</string>
+    <string name="email_reg">Enter Your email</string>
+    <string name="pass_reg">Enter Your Password</string>
+    <string name="reg">Sign-Up</string>
 </resources>
